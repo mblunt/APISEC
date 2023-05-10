@@ -2,7 +2,7 @@ from pyicloud import PyiCloudService
 import time
 import geopy.distance
 
-api = PyiCloudService('michaelbblunt@icloud.com', 'M!CH@e104')
+api = PyiCloudService('michaelbblunt@icloud.com', 'password')
 
 #Query for the 2FA code
 if api.requires_2fa:
